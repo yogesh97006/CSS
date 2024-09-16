@@ -1,0 +1,7 @@
+a{
+    color: black;
+}
+
+a:hover{           /*? these is called pseudo-class */
+    color: blueviolet;
+}
