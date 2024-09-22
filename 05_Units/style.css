@@ -8,6 +8,7 @@ html{
 
 p{
     font-size: 5rem;
+    /*+ it depends upon html property */
 }
 
 ul{
@@ -15,5 +16,6 @@ ul{
 }
 
 li{
-    font-size: 50em;
+    font-size: 50em; 
+    /* - it depends on parent element property if parent has 10px then it consider 10px  */
 }

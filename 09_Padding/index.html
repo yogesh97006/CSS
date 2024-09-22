@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+          }
+
+          .Parent_Div{
+            color: white;
+            background-color: black;
+            width: 70rem;
+            height: 30rem;
+            margin: 2.5rem auto;
+            /* padding: 25px; */
+            text-align: center;
+            padding-top: 2rem;
+            border-radius: 50px;
+          }
+
+          div{
+            color: black;
+            background-color: white;
+            width: 5rem;
+            padding: 1rem 5rem;
+            text-align: center;
+            margin: auto;
+            border-radius: 5px;
+          }
+          .Contains_DivTags{
+            background-color: black;
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             gap: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="Parent_Div">
+        <h1>These is Data About Padding </h1>
+        <div class="Contains_DivTags">
+            <div>
+                <h2>These is a H2 tag inside a div element</h2>
+            </div>
+            <div>
+                <h2> These is a H2 Tag inside a Div element</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
