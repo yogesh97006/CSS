@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        /* .Parent>h2,.Parent>p{
+            color: aqua;
+        } */
+         /* .Parent h2+p{
+            color: aqua;
+         } */
+         .Parent h2~p{
+            color: aqua;
+         }
+    </style>
+</head>
+<body>
+    <div class="Combinators">
+        <h1>Welcome To Combinators</h1>
+        <div class="Parent">
+           <h2>Hear You Will Learn Combinartors</h2>
+           <p>Thanks For Coming ..............................!</p>
+           <div class="Child">
+               <h2> This is Inside The Child</h2>
+               <p>Thanks For Coming ..............................!</p>
+               <div class="GrandChild">
+                   <h2> This is Inside The Grand Child</h2>
+                   <p>Thanks For Coming ..............................!</p>
+                   <h3>Lets GO From Grand Child</h3>
+                   <p>Its Done From Grand Child</p>
+                   <br />
+                </div>
+                <h3>Lets GO From  Child</h3>
+                <p>Its Done From  Child</p>
+                <br />
+            </div>
+            <h3>Lets GO From Parent</h3>
+            <p>Its Done From  Parent</p>
+            <br />
+        </div>
+    </div>
+</body>
+</html>
