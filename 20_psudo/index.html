@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::before{
+          /* content: "You Will Learn Hear CSS ✌️ "; */
+        }
+        p::after{
+            /* content: "    Thanks For Coming ......"; */
+        }
+         p::selection
+        {
+            /* color: aqua; */
+            background-color: rgba(188, 104, 239, 0.373);
+        }  
+        p::first-letter{
+            font-size: 4rem;
+        }
+        p::first-line{
+              text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p> This is a simple text </p>
+    </div>
+</body>
+</html>

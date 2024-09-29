@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* .all li:first-child{      */
+    /* these cj=keck that li is a first child  element in that element if not it does not appply*/
+    .all p:first-child{     
+        /* hear p is first child so then it get applyed */
+         /* color: aqua; */
+    }
+    
+    .all li:first-of-type{
+        /* color: chartreuse; */
+    }
+
+    .all li:last-of-type{
+        /* color: blueviolet; */
+    }
+
+    .all li:nth-of-type(6){
+       /* color: navy; */
+    }
+
+    .all li:nth-child(3){
+         /* color: rgb(255, 0, 0); */
+    }
+     
+    .list-items:nth-child(even){
+        color: aqua;
+        background-color: black;
+    }
+
+</style>
+<body>
+    <div class="all">
+        <p>Hii</p>
+        <p>Welcome</p>
+        <li class="list-items">ONE</li>
+        <li class="list-items">TWO</li>
+        <li class="list-items">THREE</li>
+        <li class="list-items">FOUR</li>
+        <li class="list-items">FIVE</li>
+        <p>Thanks For Visiting</p>
+        <p>Ok, Bye</p>
+    </div>
+</body>
+</html>
