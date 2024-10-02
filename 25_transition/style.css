@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+ /* place-items: center; */
+ /* justify-items: center; */
+ text-align: center;
+ 
+}
+
+a{
+    color: black;
+    background-color: aqua;
+    margin-top: 100px;
+    padding: 25px;
+    font-size: large;
+    border: 5px solid black;
+    transition-property:color,background-color ;
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out ;
+    transition-delay: 0.5s;
+    /* place-content: center; */
+}
+
+a:hover{
+    background-color: rgb(231, 25, 94);
+    color: white;
+}
